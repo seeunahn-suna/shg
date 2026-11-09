@@ -1,6 +1,18 @@
 # shg — Prácticas de Unity
 
-Proyecto para Unity **2022.3.62f3**. La actividad actual está en la rama `Practica-Modulo-6`.
+Proyecto para Unity **2022.3.62f3**. La actividad actual está en la rama `Practica-Modulo-7`.
+
+## Módulo 7: variables booleanas, AND y OR
+
+Abre `Assets/Modulo 7/Modulo7.unity` y pulsa **Play**. Hay cinco objetos en fila: A, B, `A && B`, `A || B` y `GO3 && GO4`. Cada uno se muestra blanco si su valor es `true`, negro si es `false`.
+
+Los dos primeros invierten su booleano en cada `FixedUpdate`. El **Modo lento** permite observar los cambios. Pulsa **Pausar** y cambia las casillas **A = true** y **B = true** para probar las cuatro combinaciones. Los tres resultados se recalculan al cambiar una entrada.
+
+Los scripts están en `Assets/Modulo 7/Script` y los cinco prefabs en `Assets/Modulo 7/Prefab`. Son adaptaciones independientes de la práctica anterior: las tres líneas de color aleatorio están comentadas en las copias del módulo 7. Los módulos 5 y 6 siguen disponibles en sus escenas.
+
+La [guía del módulo 7](Docs/Modulo7.md) relaciona cada paso con su implementación e incluye la tabla de verdad. Para repetir la verificación utiliza **Practicas > Modulo 7 > Comprobar en Play** con la escena guardada y Play detenido.
+
+![Cinco objetos del módulo 7, sus valores y los controles de prueba](Docs/Modulo7Play.png)
 
 ## Módulo 6: colores y creación de cubos
 
