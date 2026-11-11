@@ -1,6 +1,12 @@
 # shg — Prácticas de Unity
 
-Proyecto para Unity **2022.3.62f3**. La actividad actual está en la rama `Practica-Modulo-7`.
+Proyecto para Unity **2022.3.62f3**. La actividad actual está en la rama `Practica-Modulo-8`.
+
+## Módulo 8: variables numéricas y cadenas
+
+Abre `Assets/Modulo 8/Modulo8.unity`, pulsa **Play** y filtra la consola por `[M8`. Los mensajes numerados corresponden a los ejercicios de las dos partes. Las primeras muestras de `Update` y `FixedUpdate` aparecen en la consola, y los valores siguen cambiando en el Inspector.
+
+Selecciona **Cubo de paridad** para ver el componente **Ejercicios Variables Mod 8**. El cubo alterna entre magenta (impar) y cian (par). Cambia **Palabra Color** a `rojo`, `verde` o `azul` durante Play para cambiar el segundo cubo. Escribe tu nombre en **Nombre Completo** antes de pulsar Play para ver su separación con `Substring` y `Split`.
 
 ## Módulo 7: variables booleanas, AND y OR
 
