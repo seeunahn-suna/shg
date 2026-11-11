@@ -1,0 +1,65 @@
+PASS: Exactly five boolean objects in the scene.
+PASS: Five attached scripts, including separate AND and OR scripts.
+PASS: All operator references point to the intended scene objects.
+PASS: GO1_A has its shape and collider.
+PASS: GO2_B has its shape and collider.
+PASS: GO2_B is next to the previous object in the same row.
+PASS: GO3_AND has its shape and collider.
+PASS: GO3_AND is next to the previous object in the same row.
+PASS: GO4_OR has its shape and collider.
+PASS: GO4_OR is next to the previous object in the same row.
+PASS: GO5_AND_Resultados has its shape and collider.
+PASS: GO5_AND_Resultados is next to the previous object in the same row.
+PASS: A toggles once for every actual FixedUpdate.
+PASS: B toggles once for every actual FixedUpdate.
+PASS: Actual physics tick: AND reads both current inputs.
+PASS: Actual physics tick: OR reads both current inputs.
+PASS: Actual physics tick: fifth GO combines AND/OR results with AND.
+PASS: Actual physics tick: GO1_A shows the correct white/black color.
+PASS: Actual physics tick: GO2_B shows the correct white/black color.
+PASS: Actual physics tick: GO3_AND shows the correct white/black color.
+PASS: Actual physics tick: GO4_OR shows the correct white/black color.
+PASS: Actual physics tick: GO5_AND_Resultados shows the correct white/black color.
+PASS: Truth table A=0, B=0: AND reads both current inputs.
+PASS: Truth table A=0, B=0: OR reads both current inputs.
+PASS: Truth table A=0, B=0: fifth GO combines AND/OR results with AND.
+PASS: Truth table A=0, B=0: GO1_A shows the correct white/black color.
+PASS: Truth table A=0, B=0: GO2_B shows the correct white/black color.
+PASS: Truth table A=0, B=0: GO3_AND shows the correct white/black color.
+PASS: Truth table A=0, B=0: GO4_OR shows the correct white/black color.
+PASS: Truth table A=0, B=0: GO5_AND_Resultados shows the correct white/black color.
+PASS: Truth table A=0, B=1: AND reads both current inputs.
+PASS: Truth table A=0, B=1: OR reads both current inputs.
+PASS: Truth table A=0, B=1: fifth GO combines AND/OR results with AND.
+PASS: Truth table A=0, B=1: GO1_A shows the correct white/black color.
+PASS: Truth table A=0, B=1: GO2_B shows the correct white/black color.
+PASS: Truth table A=0, B=1: GO3_AND shows the correct white/black color.
+PASS: Truth table A=0, B=1: GO4_OR shows the correct white/black color.
+PASS: Truth table A=0, B=1: GO5_AND_Resultados shows the correct white/black color.
+PASS: Truth table A=1, B=0: AND reads both current inputs.
+PASS: Truth table A=1, B=0: OR reads both current inputs.
+PASS: Truth table A=1, B=0: fifth GO combines AND/OR results with AND.
+PASS: Truth table A=1, B=0: GO1_A shows the correct white/black color.
+PASS: Truth table A=1, B=0: GO2_B shows the correct white/black color.
+PASS: Truth table A=1, B=0: GO3_AND shows the correct white/black color.
+PASS: Truth table A=1, B=0: GO4_OR shows the correct white/black color.
+PASS: Truth table A=1, B=0: GO5_AND_Resultados shows the correct white/black color.
+PASS: Truth table A=1, B=1: AND reads both current inputs.
+PASS: Truth table A=1, B=1: OR reads both current inputs.
+PASS: Truth table A=1, B=1: fifth GO combines AND/OR results with AND.
+PASS: Truth table A=1, B=1: GO1_A shows the correct white/black color.
+PASS: Truth table A=1, B=1: GO2_B shows the correct white/black color.
+PASS: Truth table A=1, B=1: GO3_AND shows the correct white/black color.
+PASS: Truth table A=1, B=1: GO4_OR shows the correct white/black color.
+PASS: Truth table A=1, B=1: GO5_AND_Resultados shows the correct white/black color.
+PASS: Five independent runtime materials; the shared material stays white.
+PASS: No input toggles across rendered frames when physics is paused.
+PASS: Screenshot state: AND reads both current inputs.
+PASS: Screenshot state: OR reads both current inputs.
+PASS: Screenshot state: fifth GO combines AND/OR results with AND.
+PASS: Screenshot state: GO1_A shows the correct white/black color.
+PASS: Screenshot state: GO2_B shows the correct white/black color.
+PASS: Screenshot state: GO3_AND shows the correct white/black color.
+PASS: Screenshot state: GO4_OR shows the correct white/black color.
+PASS: Screenshot state: GO5_AND_Resultados shows the correct white/black color.
+PASS: No runtime errors: 
