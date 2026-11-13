@@ -1,6 +1,14 @@
 # shg — Prácticas de Unity
 
-Proyecto para Unity **2022.3.62f3**. La actividad actual está en la rama `Practica-Modulo-8`.
+Proyecto para Unity **2022.3.62f3**. La actividad actual está en la rama `Practica-Modulo-9`.
+
+## Módulo 9: ciclos y arreglos
+
+Abre `Assets/Modulo 9/Modulo9.unity`, pulsa **Play** y filtra la consola por `[M9`. El objeto **Ejercicios de ciclos y arreglos** tiene el componente que ejecuta los tres ejercicios al iniciar la escena.
+
+1. Dos arreglos de seis enteros se llenan con `Random.Range(1, 21)`. El tercero suma los valores del mismo índice y la consola muestra los tres arreglos.
+2. Un ciclo `foreach` une las palabras del arreglo e imprime «Estoy aprendiendo ciclos y arreglos en Unity.» en un solo mensaje.
+3. Una matriz de 2 × 3 multiplica al vector columna `[2, 3, 4]` y produce `[20, 47]`. El vector tiene una entrada por cada columna y el resultado tiene una entrada por cada fila.
 
 ## Módulo 8: variables numéricas y cadenas
 
