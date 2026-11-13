@@ -1,6 +1,15 @@
 # shg — Prácticas de Unity
 
-Proyecto para Unity **2022.3.62f3**. La actividad actual está en la rama `Practica-Modulo-9`.
+Proyecto para Unity **2022.3.62f3**. La actividad actual está en la rama `Practica-Modulo-11`.
+
+## Módulo 11 · Estructuras de datos
+
+Abre `Assets/Modulo 11/Modulo11.unity`, pulsa **Play** y filtra la consola por `[M11`. El componente **Ejercicios Estructuras** ejecuta las cuatro funciones al iniciar la escena.
+
+1. `GenerarListaAleatoria(6, 1, 21)` devuelve seis enteros entre 1 y 20. El límite inferior es inclusivo y el superior es exclusivo.
+2. `OrdenarDescendente` devuelve una copia ordenada de mayor a menor y conserva los valores repetidos. El ejemplo produce `[9, 4, 4, 0, -2]`.
+3. `QuitarDuplicados<T>` devuelve un `HashSet<T>`. El ejemplo contiene los tres valores distintos `Unity`, `C#` y `Datos`. El conjunto admite enteros o cadenas y su orden de enumeración no está garantizado.
+4. `ImprimirPilaYCola` usa `Push` para reconstruir una copia de la pila. Imprime de la cima a la base con `Peek` y `Pop`, y encola cada elemento con `Enqueue`. Luego imprime la cola con `Dequeue`. Ambos recorridos del ejemplo muestran `Tercero`, `Segundo` y `Primero`.
 
 ## Módulo 9: ciclos y arreglos
 
